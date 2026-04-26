@@ -1,0 +1,31 @@
+{
+  "name": "databricks-external-location",
+  "private": true,
+  "type": "module",
+  "main": "index.ts",
+  "devDependencies": {
+    "@eslint/compat": "^2.0.5",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@types/node": "^25.6.0",
+    "@vitest/coverage-v8": "^4.1.4",
+    "@vitest/eslint-plugin": "^1.6.16",
+    "aws-cdk": "^2.1118.2",
+    "eslint": "^10.2.1",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-awscdk": "^4.3.2",
+    "eslint-plugin-import-x": "^4.16.2",
+    "eslint-plugin-promise": "^7.2.1",
+    "jiti": "^2.6.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.58.2",
+    "vite": "^8.0.8",
+    "vitest": "^4.1.4"
+  },
+  "dependencies": {
+    "@pulumi/databricks": "^1.90.0",
+    "@pulumi/pulumi": "^3.231.0",
+    "@pulumi/std": "^2.3.2"
+  }
+}
