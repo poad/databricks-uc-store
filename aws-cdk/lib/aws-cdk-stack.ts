@@ -37,8 +37,9 @@ export class AwsCdkStack extends cdk.Stack {
     const role = new iam.Role(this, 'Role', {
       roleName,
       assumedBy,
+      maxSessionDuration: cdk.Duration.hours(12),
       inlinePolicies: {
-        's3-bucket-access': new iam.PolicyDocument({
+        'databricks-access': new iam.PolicyDocument({
           statements: [
             new iam.PolicyStatement({
               actions: [
@@ -47,18 +48,15 @@ export class AwsCdkStack extends cdk.Stack {
                 's3:DeleteObject',
                 's3:ListBucket',
                 's3:GetBucketLocation',
-                's3:GetLifecycleConfiguration',
-                's3:PutLifecycleConfiguration',
+                's3:ListBucketMultipartUploads',
+                's3:ListMultipartUploadParts',
+                's3:AbortMultipartUpload',
               ],
               resources: [
                 bucket.bucketArn,
                 `${bucket.bucketArn}/*`,
               ],
             }),
-          ],
-        }),
-        'assume-role-access': new iam.PolicyDocument({
-          statements: [
             new iam.PolicyStatement({
               actions: [
                 'sts:AssumeRole',

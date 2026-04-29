@@ -3,6 +3,12 @@ packages:
   - aws-cdk
   - databricks-external-location
 
+allowBuilds:
+  '@pulumi/std': false
+  esbuild: false
+  protobufjs: false
+  unrs-resolver: false
+
 minimumReleaseAge: 10080 # 7 days in minutes
 
 overrides:
