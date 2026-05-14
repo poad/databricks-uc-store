@@ -10,7 +10,7 @@
     "@types/node": "^25.6.0",
     "@vitest/coverage-v8": "^4.1.5",
     "@vitest/eslint-plugin": "^1.6.16",
-    "aws-cdk": "^2.1120.0",
+    "aws-cdk": "^2.1121.0",
     "eslint": "^10.3.0",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-awscdk": "^4.3.2",
@@ -20,12 +20,12 @@
     "tsx": "^4.21.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.2",
-    "vite": "^8.0.10",
+    "vite": "^8.0.11",
     "vitest": "^4.1.5"
   },
   "dependencies": {
     "@pulumi/databricks": "^1.91.1",
-    "@pulumi/pulumi": "^3.235.0",
+    "@pulumi/pulumi": "^3.236.0",
     "@pulumi/std": "^2.3.2"
   }
 }
