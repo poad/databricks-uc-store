@@ -15,8 +15,8 @@ importers:
   aws-cdk:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.253.1
-        version: 2.253.1(constructs@10.6.0)
+        specifier: ^2.254.0
+        version: 2.254.0(constructs@10.6.0)
       constructs:
         specifier: ^10.6.0
         version: 10.6.0
@@ -82,8 +82,8 @@ importers:
         specifier: ^1.92.0
         version: 1.92.0(typescript@6.0.3)
       '@pulumi/pulumi':
-        specifier: ^3.237.0
-        version: 3.237.0(typescript@6.0.3)
+        specifier: ^3.238.0
+        version: 3.238.0(typescript@6.0.3)
       '@pulumi/std':
         specifier: ^2.3.2
         version: 2.3.2(typescript@6.0.3)
@@ -151,8 +151,8 @@ packages:
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.1':
     resolution: {integrity: sha512-We4bmHaowOPHr+IQR4/FyTGjRfjgBj4ICMjtqmJeBDWad3Q/6St12NT07leNtyuukv2qMhtSZJQorD8KpKTwRA==}
 
-  '@aws-cdk/cloud-assembly-schema@53.22.0':
-    resolution: {integrity: sha512-2GLhjjf7Db697rRyYt6rjN06fwbBIiewPo/jxSCyUN259ejF7NQQRwvrdAQb9Aq2jPaIIp1cfHSoEdXyA6Bb7Q==}
+  '@aws-cdk/cloud-assembly-schema@53.23.0':
+    resolution: {integrity: sha512-/8bIjpLrr34pMMt+/wQo1bNssHS8squz2aXKz3TVWDKhZg7TxZK7boMY1WQND9APUEtavopIBsrPqwC4Z3qESw==}
     engines: {node: '>= 18.0.0'}
     bundledDependencies:
       - jsonschema
@@ -663,8 +663,8 @@ packages:
   '@pulumi/databricks@1.92.0':
     resolution: {integrity: sha512-rLVNdT8xQDEgtW3x0oPpz7jUrK1yhqeNuiBKVy344xGrzCd7aqt8sLE1S4jX4BZHZqLfQd1FQSCKWkMBXxdnSQ==}
 
-  '@pulumi/pulumi@3.237.0':
-    resolution: {integrity: sha512-sSha6qfV1dcLP6OkqLKyM1UdzKRLfcAsHfhAUiXhlSHia+Grsso1Zvq0ZByj44nK9sY98BLlPlQBtt1VRWHZOQ==}
+  '@pulumi/pulumi@3.238.0':
+    resolution: {integrity: sha512-Lc+TmJTajbLsVBjUBCDcMlzuC4pLsnTyN9gOrTcvAp7otZ9j2b+ttOQZXlB70gDLr+ylDdPIVEy6Ghs28VfMRw==}
     engines: {node: '>=20'}
     peerDependencies:
       ts-node: '>= 7.0.1 < 12'
@@ -1110,8 +1110,8 @@ packages:
   ast-v8-to-istanbul@1.0.0:
     resolution: {integrity: sha512-1fSfIwuDICFA4LKkCzRPO7F0hzFf0B7+Xqrl27ynQaa+Rh0e1Es0v6kWHPott3lU10AyAr7oKHa65OppjLn3Rg==}
 
-  aws-cdk-lib@2.253.1:
-    resolution: {integrity: sha512-vy+hA15/ZfSQpivkNdlIn2ZDA2hesp3WJgmtIZJDFwu6xzwv7wH7glbAdu5xCHGcOjepOaTKZSvCPC6sN+0/Vw==}
+  aws-cdk-lib@2.254.0:
+    resolution: {integrity: sha512-O7fn6fu1FXb0BgoO/+WeiBXZ16H/q6z4fOndjdG62c9bPU7Z/UeW5gz7qBiwLm4ERvTObobLCqv7wjd8bp+v3A==}
     engines: {node: '>= 20.0.0'}
     peerDependencies:
       constructs: ^10.5.0
@@ -2267,7 +2267,7 @@ snapshots:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.1': {}
 
-  '@aws-cdk/cloud-assembly-schema@53.22.0': {}
+  '@aws-cdk/cloud-assembly-schema@53.23.0': {}
 
   '@babel/helper-string-parser@7.27.1': {}
 
@@ -2755,13 +2755,13 @@ snapshots:
 
   '@pulumi/databricks@1.92.0(typescript@6.0.3)':
     dependencies:
-      '@pulumi/pulumi': 3.237.0(typescript@6.0.3)
+      '@pulumi/pulumi': 3.238.0(typescript@6.0.3)
     transitivePeerDependencies:
       - supports-color
       - ts-node
       - typescript
 
-  '@pulumi/pulumi@3.237.0(typescript@6.0.3)':
+  '@pulumi/pulumi@3.238.0(typescript@6.0.3)':
     dependencies:
       '@grpc/grpc-js': 1.14.3
       '@logdna/tail-file': 2.2.0
@@ -2797,7 +2797,7 @@ snapshots:
 
   '@pulumi/std@2.3.2(typescript@6.0.3)':
     dependencies:
-      '@pulumi/pulumi': 3.237.0(typescript@6.0.3)
+      '@pulumi/pulumi': 3.238.0(typescript@6.0.3)
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -3191,11 +3191,11 @@ snapshots:
       estree-walker: 3.0.3
       js-tokens: 10.0.0
 
-  aws-cdk-lib@2.253.1(constructs@10.6.0):
+  aws-cdk-lib@2.254.0(constructs@10.6.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.273
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.1
-      '@aws-cdk/cloud-assembly-schema': 53.22.0
+      '@aws-cdk/cloud-assembly-schema': 53.23.0
       constructs: 10.6.0
 
   aws-cdk@2.1121.0: {}

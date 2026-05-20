@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@pulumi/databricks": "^1.92.0",
-    "@pulumi/pulumi": "^3.237.0",
+    "@pulumi/pulumi": "^3.238.0",
     "@pulumi/std": "^2.3.2"
   }
 }
