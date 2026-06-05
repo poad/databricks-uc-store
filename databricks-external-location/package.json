@@ -24,8 +24,8 @@
     "vitest": "^4.1.7"
   },
   "dependencies": {
-    "@pulumi/databricks": "^1.93.0",
-    "@pulumi/pulumi": "^3.243.0",
+    "@pulumi/databricks": "^1.94.0",
+    "@pulumi/pulumi": "^3.244.0",
     "@pulumi/std": "^2.3.2"
   }
 }
