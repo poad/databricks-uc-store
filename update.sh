@@ -21,7 +21,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-if ! (npx -y pnpm@latest self-update latest-11 && pnpm install -r && pnpm up -r && pnpm audit --fix override && pnpm up -r && pnpm -r --parallel --if-present lint-fix) ; then
+if ! (pnx -y pnpm@latest self-update latest-11 && pnpm install -r && pnpm up -r && pnpm audit --fix override && pnpm up -r && pnpm -r --parallel --if-present lint-fix) ; then
   cd "${CUR}" || exit
   exit 1
 fi
