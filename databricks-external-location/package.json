@@ -7,7 +7,7 @@
     "@eslint/compat": "^2.1.0",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
-    "@types/node": "^25.9.1",
+    "@types/node": "^25.9.2",
     "@vitest/coverage-v8": "^4.1.8",
     "@vitest/eslint-plugin": "^1.6.19",
     "aws-cdk": "^2.1126.0",
@@ -24,8 +24,8 @@
     "vitest": "^4.1.8"
   },
   "dependencies": {
-    "@pulumi/databricks": "^1.94.0",
-    "@pulumi/pulumi": "^3.244.0",
+    "@pulumi/databricks": "^1.95.0",
+    "@pulumi/pulumi": "^3.245.0",
     "@pulumi/std": "^2.3.2"
   }
 }
